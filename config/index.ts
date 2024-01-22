@@ -1,5 +1,5 @@
-export const SiteName = 'uShare'
+export const SiteName = 'QuickCook'
 export const SiteDescription =
-  'Build beautiful sharing cards to spread your content wider'
+  'Quickly choose what to cook with what you have'
 export const SiteIntro =
-  'Generate beautiful sharing cards on different devices, supporting code, text, and even markdown'
+  'All about What to cook and how to cook'

@@ -8,31 +8,35 @@
         <p class="text-hint">{{ SiteIntro }}</p>
         <div class="flex items-center justify-between">
           <div class="flex items-center">
+            <!--
             <div v-for="user in UserList" :key="user" class="-mr-2.5">
               <img class="rounded-1/2 w-8 h-8" :src="user" alt="" />
             </div>
+            -->
             <div class="ml-8 whitespace-nowrap">
               Used by <a class="text-primary">1000+</a> enthusiasts
             </div>
           </div>
         </div>
-        <a
-          href="https://www.producthunt.com/posts/ushare?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ushare"
-          target="_blank"
-          class="w-fit"
-          ><img
-            src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=432959&theme=neutral"
-            alt="uShare - A&#0032;simple&#0032;tool&#0032;for&#0032;generating&#0032;beautiful&#0032;sharing&#0032;interactions | Product Hunt"
-            style="width: 250px; height: 54px"
-            width="250"
-            height="54"
-        /></a>
+        <!--
         <button
           class="bg-primary text-white w-fit flex gap-2 px-4 py-3 rounded-4 cursor-pointer"
         >
-          Get started, it's free!
+        We are live and you’re officially invited to see what’s new. Download on the App Store today. 
           <div class="i-ion-arrow-right-c"></div>
         </button>
+        -->
+        <a
+          href="https://apps.apple.com/us/app/%E5%BF%AB%E9%80%89%E7%83%B9%E9%A5%AA/id6474119619?itsct=apps_box_link&itscg=30200"
+          target="_blank"
+          class="w-fit"
+          ><img
+            src="/QuickCook-CN-B.png"
+            alt="https://apple.co/3HtjF6M"
+            style="width: 500px; height: 280px"
+            width="250"
+            height="54"
+        /></a>
         <div class="absolute top-1/4 opacity-25 background">
           <div class="bg-primary w-40 h-20 blur-50 top-5 left-0 absolute"></div>
           <div
@@ -47,10 +51,13 @@
         <TiltCard></TiltCard>
       </div>
     </section>
+    <!--
     <Example></Example>
     <Comment></Comment>
     <Price></Price>
     <FAQ></FAQ>
+    -->
+     <!--
     <section class="w-full center flex-col gap-8">
       <h2 class="text-24px font-bold line-height-1em">
         Unlock your first card
@@ -61,6 +68,7 @@
         Get Started
       </button>
     </section>
+    -->
     <AutoUp></AutoUp>
   </main>
 </template>

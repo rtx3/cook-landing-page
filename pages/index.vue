@@ -1,13 +1,13 @@
 <script setup lang="ts">
   const online = useOnline()
   useSeoMeta({
-    title: 'template-landing-page',
-    description: 'template nuxt3 is a usage tool for create nuxt3 project',
+    title: 'QuickCook app',
+    description: 'QuickCook is small app to help you cook.',
   })
 
   defineOgImage({
-    title: 'template-landing-page',
-    description: 'template nuxt3 is a usage tool for create nuxt3 project',
+    title: 'QuickCook app',
+    description: 'QuickCook is small app to help you cook.',
   })
 </script>
 

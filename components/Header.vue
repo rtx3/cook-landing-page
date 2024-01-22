@@ -4,6 +4,7 @@
       <img class="h-8" src="/maskable-icon.png" alt="ushare logo" />
       <div>{{ SiteName }}</div>
     </div>
+    <!--
     <div class="flex gap-4" @click="onScroll">
       <a
         v-for="nav in NavList"
@@ -14,6 +15,8 @@
         <div class="h-0.5 bg-primary rounded transition-width-200 w-0"></div>
       </a>
     </div>
+    -->
+    <!--
     <div class="flex gap-x-4 items-center">
       <a
         href="https://discord.gg/aZarY8WF2b"
@@ -21,6 +24,7 @@
         class="i-logos-discord-icon cursor-pointer text-lg"
       ></a>
     </div>
+    -->
   </header>
 </template>
 
